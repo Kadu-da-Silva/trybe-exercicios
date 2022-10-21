@@ -1,4 +1,4 @@
-## O que vamos aprender?
+## O que vamos aprender? :white_check_mark:
 O Unix é um sistema operacional popular que foi lançado em 1969 e ganhou muitas das variações que se tornaram os principais sistemas operacionais do mercado. Vamos aprender como funciona o Unix e como interagir com ele através do terminal, utilizando o Bash.
 
 #### Os principais pontos abordados serão:
@@ -13,7 +13,7 @@ Qual a sua estrutura de diretórios?
 
 O que é o terminal?
 
-## Comandos executados no Shell.
+## Comandos executados no Shell :white_check_mark:
 
 #### Você será capaz de:
 Executar comandos no terminal para navegar entre diretórios;
