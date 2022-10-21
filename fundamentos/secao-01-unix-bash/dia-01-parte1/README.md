@@ -3,21 +3,21 @@ O Unix é um sistema operacional popular que foi lançado em 1969 e ganhou muita
 
 #### Os principais pontos abordados serão:
 
-Quais são seus principais componentes?
+- [ ] Quais são seus principais componentes?
 
-Quais são suas variações?
+- [ ] Quais são suas variações?
 
-Arquivos e processos, o que são?
+- [ ] Arquivos e processos, o que são?
 
-Qual a sua estrutura de diretórios?
+- [ ] Qual a sua estrutura de diretórios?
 
-O que é o terminal?
+- [ ] O que é o terminal?
 
 ## Comandos executados no Shell :white_check_mark:
 
 #### Você será capaz de:
-Executar comandos no terminal para navegar entre diretórios;
+- [ ] Executar comandos no terminal para navegar entre diretórios;
 
-Executar comandos no terminal para criar e manipular arquivos e diretórios;
+- [ ] Executar comandos no terminal para criar e manipular arquivos e diretórios;
 
-Executar comandos no terminal para realizar buscas;
+- [ ] Executar comandos no terminal para realizar buscas;
