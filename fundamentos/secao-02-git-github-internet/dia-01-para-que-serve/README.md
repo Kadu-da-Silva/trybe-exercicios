@@ -4,9 +4,8 @@ Você vai poder criar várias versões do seu projeto com a ajuda de um sistema 
 
 Você também começará a utilizar o VSCode e vai aprender a gerenciar as versões do seu projeto nele 🥳. 
 
-Vamos lá?
 
-#### Você será capaz de:
+## Você será capaz de:
 Instalar e configurar o Git no seu computador;
 
 Salvar seus projetos no repositório Git local;
