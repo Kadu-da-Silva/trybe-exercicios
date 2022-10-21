@@ -6,9 +6,9 @@ Você também começará a utilizar o VSCode e vai aprender a gerenciar as vers�
 
 
 ## Você será capaz de:
-Instalar e configurar o Git no seu computador;
+- [ ] Instalar e configurar o Git no seu computador;
 
-Salvar seus projetos no repositório Git local;
+- [ ] Salvar seus projetos no repositório Git local;
 
-Controlar as alterações e versões dos seus arquivos;
+- [ ] Controlar as alterações e versões dos seus arquivos;
 
