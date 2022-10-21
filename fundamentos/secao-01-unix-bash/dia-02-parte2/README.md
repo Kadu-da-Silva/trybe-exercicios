@@ -2,7 +2,7 @@
 
 Vamos continuar explorando os comandos do UNIX.
 
-#### Você será capaz de:
+## Você será capaz de:
 Utilizar o comando find;
 
 Utilizar os operadores > (maior), >> (maior maior) e | (pipe) no terminal;
