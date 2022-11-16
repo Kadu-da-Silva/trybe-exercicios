@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traballhando com o Forms</title>
+    <style>
+        .alerta {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Formulário</h1>
+
+    <form action="" method="" enctype="multipart/form-data"> <!--enctype para dizer que esse formulário não recebe apenas texto mas, também arquivos-->
+         <label for="manipula">Digita o nome aí Jow</label> <!--criando um vículo entre minha Label e o meu campo Input -->
+        <input type="text" placeholder="digita aqui mano" name="textin-que-o-mano-digito" value="" id="manipula" required class="alerta">
+        <br>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Por que vc tá aqui?" maxlength="15"></textarea>
+        <br>
+        <br>
+        <section>Curto:
+            <br>
+            <label for="role"><input type="checkbox" name="testando-testando" id="role" value="role">Praia</label>
+            <label for="role1"><input type="checkbox" name="testando-testando" id="role1" value="role">Cachoeira</label>
+            <label for="role2"><input type="checkbox" name="testando-testando" id="role2" value="role">Pizza</label>
+            <label for="role3"><input type="checkbox" name="testando-testando" id="role3" value="role">Hamburguer</label>
+            <label for="role4"><input type="checkbox" name="testando-testando" id="role4" value="role">Menino</label>
+            <label for="role5"><input type="checkbox" name="testando-testando" id="role5" value="role">Menina</label>
+        </section>    
+        <br>
+        <section>Moro:
+            <br>
+            <input type="radio" name="origem">Cidade Grande
+            <input type="radio" name="origem">Periferia
+        </section>
+        <br>
+        <section>Estou 
+            <select name="estado" id="emocional">
+                <option value=""></option>
+                <option value="feliz">Feliz</option>
+                <option value="ansioso">Ansioso</option>
+                <option value="triste">Triste</option>
+                <option value="animado">Animado</option>
+                <option value="desanimado">Desanimado</option>
+                <option value="nSei">Não sei</option>
+            </select>
+        </section>
+        <br>
+        <section>Foto do seu lugar favorito
+            <br>
+            <input type="file">
+        </section>
+        <br>
+        <label for="segredo">Colca aqui um segredo só seu <input type="password" id="segredo" placeholder="Ninguém vai ver"></label>
+        <br>        
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
