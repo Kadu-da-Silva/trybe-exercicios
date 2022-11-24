@@ -68,5 +68,64 @@ const order = {
           
             console.log(`Olá ${deliveryPerson}, entrega para: ${customerName}, Telefone: ${customerPhone}, R. ${street}, Nº: ${number}, AP: ${apartment}`);
           }
+  
           
-          customerInfo(order);
+
+  //Complete a função orderModifier() para que seu retorno seja similar a 'Olá Luiz Silva, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00.';
+  //Modifique o nome da pessoa compradora para Luiz Silva;
+  //Modifique o valor total da compra para R$ 50,00.
+
+// Primeiro passo: Modifique o nome da pessoa compradora.
+  
+
+const orderModifier = (order) => {
+  const newBuyer = order.name = 'Luiz Silva'; // Altere o nome da pessoa compradora
+}
+
+orderModifier(order);
+
+//Segundo passo: Modifique o valor total da compra.
+
+
+const orderModifier = (order) => {
+  const newBuyer = order.name = 'Luiz Silva';
+  const newTotal = order.payment.total = '50'; // Altere o valor total da compra
+}
+
+orderModifier(order);
+
+//Terceiro passo: Utilize o Object.keys para recuperar os nomes das pizzas.
+
+const orderModifier = (order) => {
+  const newBuyer = order.name = 'Luiz Silva';
+  const newTotal = order.payment.total = '50';
+  const pizzas = Object.keys(order.order.pizza); // Recupere as chaves que estão em `order.order.pizza`
+}
+
+orderModifier(order);
+
+//Quarto passo: Recupere o type da chave coke.
+
+const orderModifier = (order) => {
+  const newBuyer = order.name = 'Luiz Silva';
+  const newTotal = order.payment.total = '50';
+  const pizzas = Object.keys(order.order.pizza);
+  const drinks = order.order.drinks.coke.type; // Recupere o `type` da chave `coke`.
+}
+
+orderModifier(order);
+
+//Quinto passo: Concatene os valores recuperados utilizando template literals e exiba a mensagem esperada.
+  //Acesse cada posição da constante pizzas para exibir uma pizza por vez.
+
+const orderModifier = (order) => {
+  const newBuyer = order.name = 'Luiz Silva';
+  const newTotal = order.payment.total = '50';
+  const pizzas = Object.keys(order.order.pizza);
+  const drinks = order.order.drinks.coke.type;
+
+  console.log(`Olá ${newBuyer}, o total do seu pedido de ${pizzas[0]}, ${pizzas[1]} e ${drinks} é R$ ${newTotal},00.`); // Exiba a mensagem desejada utilizando `template literals`
+}
+
+orderModifier(order);
+
