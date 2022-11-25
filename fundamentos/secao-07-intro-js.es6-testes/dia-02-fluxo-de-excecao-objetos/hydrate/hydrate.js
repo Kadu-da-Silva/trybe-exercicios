@@ -1,4 +1,4 @@
-// hydrate.js
+
 const hydrate = (string) => {
     const splitString = string.split('');
     let glassesOfWater = 0;
