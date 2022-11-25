@@ -1,0 +1,15 @@
+{
+  "name": "hydrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hidrate.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
