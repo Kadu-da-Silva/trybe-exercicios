@@ -1,8 +1,8 @@
 {
-  "name": "dia-02-fluxo-de-excecao-objetos",
+  "name": "myremove",
   "version": "1.0.0",
   "description": "",
-  "main": "loginValidation.js",
+  "main": "myRemove.js",
   "scripts": {
     "test": "jest"
   },
